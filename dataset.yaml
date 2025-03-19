@@ -1,0 +1,8 @@
+path: /content/BCCD_Dataset/BCCD/yolo_dataset  # dataset root dir
+train: /content/BCCD_Dataset/BCCD/yolo_dataset/train/images  # train images (relative to 'path') 128 images
+val: /content/BCCD_Dataset/BCCD/yolo_dataset/valid/images  # val images (relative to 'path') 128 images
+test: /content/BCCD_Dataset/BCCD/yolo_dataset/test/images  # test images (optional)
+
+# Classes
+nc: 3  # number of classes
+names: ['RBC', 'WBC', 'Platelets']  # class names
